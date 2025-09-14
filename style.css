@@ -1,9 +1,11 @@
-body{
-    margin:0px;
-    padding:0px;
-    color:white;
+/* needed to import the font from the outside */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(assets/images/background-desktop.png);
+  color: white;
 }
 
-img{
-    opacity: 1;
+img {
+  opacity: 1;
 }
