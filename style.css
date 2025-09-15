@@ -1,4 +1,4 @@
-/* needed to import the font from the outside */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 body {
   margin: 0px;
   padding: 0px;
@@ -7,8 +7,31 @@ body {
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-img {
-  opacity: 1;
+.center {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0px;
+}
+.center h1 {
+  font-size: 30px;
+}
+main {
+  width: 700px;
+}
+.upperText h1 {
+  font-size: 40px;
+}
+.upperText p {
+  font-size: 22px;
+  color: hsl(245, 15%, 58%);
 }
