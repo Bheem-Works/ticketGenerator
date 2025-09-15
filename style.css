@@ -44,13 +44,39 @@ main {
   border: 2px dotted white;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
-.form label{
-  font-size:20px;
-  text-align:start;
-  align-items:start;
+.form label {
+  font-size: 20px;
+  text-align: start;
+  align-items: start;
+}
+
+.form input {
+  color: hsl(0, 0%, 100%);
+  background-color: transparent;
+  border: 2px solid hsl(245, 15%, 58%);
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.form button {
+  padding: 20px;
+  margin: 10px 0px;
+  background-color:hsl(7, 88%, 67%);
+  color: hsl(248, 70%, 10%);
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Young Serif', serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.form button:hover{
+  background-color:hsl(7, 71%, 60%);
 }
