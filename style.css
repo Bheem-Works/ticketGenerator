@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* The problem is that -> I don't know how to add the pattern line and circle and the other's background thing's. */
 body {
   margin: 0px;
   padding: 0px;
   background-image: url(assets/images/background-desktop.png);
   background-color: transparent;
   background-repeat: no-repeat;
-  color: white;
+  color: hsl(252, 6%, 83%);
   background-size: cover;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
@@ -34,4 +36,21 @@ main {
 .upperText p {
   font-size: 22px;
   color: hsl(245, 15%, 58%);
+}
+
+.fileBorder {
+  width: 700px;
+  height: 150px;
+  border: 2px dotted white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.form label{
+  font-size:20px;
+  text-align:start;
+  align-items:start;
 }

@@ -32,9 +32,13 @@
           <p>Secure your spot at next year's biggest coding conference.</p>
         </div>
       </section>
+
+      <!-- upload the avatar -->
       <section>
-        <h3>Upload Avatar</h3>
-        <div class="fileDrop">
+        <h3 style="display: block; align-items: start; text-align: start">
+          Upload Avatar
+        </h3>
+        <div class="fileBorder">
           <input
             type="file"
             name="fileDrop"
@@ -42,19 +46,20 @@
             accept="image/JPG, image/jpeg, image/png"
           />
           <img src="assets/images/icon-upload.svg" alt="upload" />
-          <p>imgDrag and drop or click to upload</p>
-          <p>
-            <img src="assets/images/icon-info.svg" alt="icon-info" /> Upload
-            your photo (JPG or PNG, max size: 500KB).
-          </p>
+          <p>Drag and drop or click to upload</p>
         </div>
+        <p>
+          <img src="assets/images/icon-info.svg" alt="icon-info" /> Upload your
+          photo (JPG or PNG, max size: 500KB).
+        </p>
       </section>
 
+      <!-- Form -->
       <form action="" method="get" class="form-example">
         <div class="form">
-          <label for="name">Full Name: </label>
+          <label for="name">Full Name </label>
           <input type="text" name="name" id="name" required />
-          <label for="email">Enter your email: </label>
+          <label for="email">Enter your email </label>
           <input
             type="email"
             name="email"
