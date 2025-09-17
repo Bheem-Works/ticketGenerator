@@ -6,8 +6,16 @@
 Well i have never be good at the image property and also don't know how to use it properly. */
 body {
   margin: 0px;
-  padding: 0px;
-  background-image: url(assets/images/background-desktop.png),url(assets/images/pattern-squiggly-line-bottom-desktop.svg),url(assets/images/pattern-squiggly-line-top.svg);
+  min-height:100vh;
+  background-image: url(assets/images/background-desktop.png),
+  url(assets/images/pattern-squiggly-line-bottom-desktop.svg),
+  url(assets/images/pattern-squiggly-line-top.svg);
+  background-repeat:no-repeat,no-repeat,no-repeat;
+  background-position: left-top,
+  right-top,
+  center center;
+background-size: auto auto cover;
+background-attachment:scroll,scroll,fixed;
   background-color: transparent;
   background-repeat: no-repeat;
   color: hsl(252, 6%, 83%);
