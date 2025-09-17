@@ -63,15 +63,15 @@ main {
   border: 2px dotted white;
 }
 .fileBorder input {
-  display:none;
+  display: none;
 }
 
 .fileBorder img {
-  border:1px solid whitesmoke;
-  border-radius:10px;
-  width:50px;
-  margin:20px 0px;
-  cursor:pointer;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  width: 50px;
+  margin: 20px 0px;
+  cursor: pointer;
 }
 
 .form {
@@ -92,7 +92,6 @@ main {
   border-radius: 10px;
   font-size: 16px;
   padding: 15px;
-
 }
 
 .form button {
@@ -112,11 +111,9 @@ main {
   background-color: hsl(7, 71%, 60%);
 }
 
-
-
 /* Medai query  */
-@media screen and (max-width:375px) {
-  body{
+@media screen and (max-width:376px) {
+  body {
     background-image: url(assets/images/background-mobile.png);
   }
 }
