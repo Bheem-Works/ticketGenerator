@@ -6,12 +6,11 @@
 Well i have never be good at the image property and also don't know how to use it properly. */
 body {
   margin: 0;
-  min-height: 100vh;
 
   background-image:
-    url('assets/images/background-desktop.png'),
-    url('assets/images/pattern-squiggly-line-bottom-desktop.svg'),
-    url('assets/images/pattern-squiggly-line-top.svg');
+    url('assets/images/background-desktop.png');
+    /* url('assets/images/pattern-squiggly-line-bottom-desktop.svg'), */
+    /* url('assets/images/pattern-squiggly-line-top.svg'); */
 
   background-repeat: no-repeat, no-repeat, no-repeat;
 
@@ -27,7 +26,6 @@ body {
   background-color: transparent;
 
   color: hsl(252, 6%, 83%);
-  background-size: cover;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -58,7 +56,6 @@ main {
 }
 
 .fileBorder {
-  width: 700px;
   height: 150px;
   border: 2px dotted white;
 }
@@ -115,5 +112,20 @@ main {
 @media screen and (max-width:376px) {
   body {
     background-image: url(assets/images/background-mobile.png);
+    background-repeat:no-repeat;
+    background-size:cover;
   }
+  .center h1{
+    font-size: 20px;
+  }
+  main{
+    width: 100%;
+  }
+  .upperText h1 { 
+    font-size: 30px;
+  }
+  .upperText p {
+    font-size: 25px;
+  }
+  
 }
