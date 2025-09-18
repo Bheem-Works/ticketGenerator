@@ -8,9 +8,9 @@ body {
   margin: 0;
 
   background-image:
-    url('assets/images/background-desktop.png');
-    /* url('assets/images/pattern-squiggly-line-bottom-desktop.svg'), */
-    /* url('assets/images/pattern-squiggly-line-top.svg'); */
+    url('assets/images/background-desktop.png')
+    url('assets/images/pattern-squiggly-line-bottom-desktop.svg'),
+    url('assets/images/pattern-squiggly-line-top.svg');
 
   background-repeat: no-repeat, no-repeat, no-repeat;
 
@@ -19,7 +19,7 @@ body {
     right top,
     center center;
 
-  background-size: auto, auto, cover;
+  background-size: auto,auto , cover;
 
   background-attachment: scroll, scroll, fixed;
 
