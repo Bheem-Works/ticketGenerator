@@ -111,6 +111,7 @@ main {
 /* Medai query  */
 @media screen and (max-width:376px) {
   body {
+    margin:0px 10px;
     background-image: url(assets/images/background-mobile.png);
     background-repeat:no-repeat;
     background-size:cover;
@@ -127,5 +128,9 @@ main {
   .upperText p {
     font-size: 25px;
   }
-  
+  .form button {
+    font-size: 20px;
+    padding:12px;
+    margin-bottom:5rem;
+  }
 }
